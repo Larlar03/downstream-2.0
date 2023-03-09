@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #141414;
+  background: #F7F7F7;
+  line-height: 1.4;
+  /* Default font size is 16px */
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+
+.dark-gradient {
+  background: linear-gradient(to right, rgb(40, 96, 254, 70%), rgb(118, 120, 237, 70%));
+  border-radius: 6px !important;
+}
+
+
+.light-gradient {
+  background: linear-gradient(to right, rgb(40, 96, 254, 15%), rgb(118, 120, 237, 15%)) !important;
+  border-radius: 6px !important;
+}
+
+.no-gradient {
+  background: #F7F7F7 !important;
+  border-radius: 6px !important;
+}
+
+.error-message {
+  color: #FF235E;
+  font-size: 0.8rem !important;
+  font-weight: 500;
+  margin: 12px 0 0 0;
+  padding: 0;
+}
+
+.text-blue {
+    color: #0A4AFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

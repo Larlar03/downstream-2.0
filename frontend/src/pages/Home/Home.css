@@ -1,0 +1,47 @@
+.home_container {
+  width: 100%;
+  height: 100%;
+}
+
+.home_main {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 !important;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_heading {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+span.heading_white {
+  color: #fff;
+}
+
+span.heading_blue {
+  color: #0A4AFF;
+}
+
+.home_nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.home_nav_link {
+  color: #0A4AFF;
+  text-decoration: none;
+}
+
+.home_nav_link:hover {
+  color: black;
+}
