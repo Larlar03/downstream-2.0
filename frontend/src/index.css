@@ -19,18 +19,18 @@ h1, h2, h3 {
 }
 
 
-.dark-gradient {
+.gradient--dark {
   background: linear-gradient(to right, rgb(40, 96, 254, 70%), rgb(118, 120, 237, 70%));
   border-radius: 6px !important;
 }
 
 
-.light-gradient {
+.gradient--light {
   background: linear-gradient(to right, rgb(40, 96, 254, 15%), rgb(118, 120, 237, 15%)) !important;
   border-radius: 6px !important;
 }
 
-.no-gradient {
+.gradient--none {
   background: #F7F7F7 !important;
   border-radius: 6px !important;
 }
