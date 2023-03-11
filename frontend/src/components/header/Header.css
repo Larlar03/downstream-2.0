@@ -1,0 +1,48 @@
+.text-purple {
+    color: #7678ed;
+}
+
+.navbar-brand {
+    color: #0a4aff !important;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hamburger nav icon */
+.bi-list {
+    font-size: 30px !important;
+    color: #141414;
+}
+
+/* Remove dropdown arrow in nav */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-link {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+a.dropdown-link:hover {
+    color: #7678ed;
+    background: #f7f7f7 !important;
+}
+
+#nav-dropdown {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#nav-dropdown {
+    content: '\F479' !important;
+}
